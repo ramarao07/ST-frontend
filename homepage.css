@@ -228,8 +228,8 @@ header {
     width: 500px;
     height: auto;
     border-radius:12px;
-    margin-left:50px;
-    margin-top:20px;
+    margin-left:90px;
+    margin-top:22px;
 }
 .details{
     display:flex;
@@ -288,7 +288,7 @@ header {
 .Testimonials-box{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:20px;
+
     padding: 40px;
 }
 .Testimonials{
@@ -318,8 +318,69 @@ header {
 
 .testimonial-cards{
      background-color: #fff;
-     width:693px;
-     height:500px;
+     width:700px;
+     height:300px;
      border-radius: 12px;
      
 }
+.testimonial-para{
+    font-size:18px;
+    gap:30px;
+    padding:50px;
+}
+.line {
+    height: 1px; 
+    background-color: #f1f1f3; 
+    width: 100%; 
+  }
+  .Testimonials-details{
+    padding:30px 50px 30px 50px;
+    display:flex;
+  }
+  .picture{
+    width:60px;
+    height:60px;
+    border-radius: 8px;
+  }
+  .traine-name{
+    width:375px;
+    padding:17.50px;
+    font-size: 18px;
+    font-weight: 600px;
+    font-weight: bold;
+    color:#333333;
+  }
+  .read-more{
+    width:182px;
+    height:68px;
+    padding:17.50px;
+    text-decoration: none;
+    font-size: 17.50px;
+    font-weight: 600px;
+    font-weight: bold;
+    color:#333333;
+    background-color: whitesmoke;
+    border-radius: 8px;
+
+  }
+  .faq-container{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 90px;
+    padding:100px;
+    width:1420px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+   
+  }
+  .faq-box{
+    width:200px;
+
+  }
+  .faq-questions-box{
+    width: 800px;
+    height:900px;
+    background-color: #fff;
+    border-radius: ;
+  }
